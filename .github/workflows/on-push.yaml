@@ -13,6 +13,9 @@ jobs:
 
     - name: 'brew'
       run: which brew
-
+      
+    - name: 'Force XCode 11.3'
+      run: sudo xcode-select -switch /Applications/Xcode_12.4.app
+      
     - name: 'swift version'
       run: swift --version
