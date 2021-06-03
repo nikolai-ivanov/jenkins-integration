@@ -10,3 +10,9 @@ jobs:
 
     - name: 'java version'
       run: java -version
+
+    - name: 'brew'
+      run: which brew
+
+    - name: 'swift version'
+      run: swift --version
